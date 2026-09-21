@@ -1,0 +1,16 @@
+{
+  "//NOTE": "Your forked repo's own src/config.json may already have most of this pre-filled for the current template version -- adjust these specific values in whatever file your fork actually ships with rather than overwriting it wholesale.",
+
+  "DESIGN_NAME": "tt_um_mips_i2c",
+
+  "//CLOCK_PERIOD_NOTE": "In nanoseconds. Do NOT reuse an FPGA clock number -- standard-cell ASIC timing behaves differently from FPGA fabric. Start conservative and let the real STA report tell you the achievable ceiling.",
+  "CLOCK_PERIOD": 40,
+  "CLOCK_PORT": "clk",
+
+  "//PL_TARGET_DENSITY_NOTE": "Raise this (up to ~0.8) if global placement fails with a density-related error.",
+  "PL_TARGET_DENSITY": 0.5,
+
+  "PDK": "sky130A",
+
+  "RUN_LINTER": 1
+}
